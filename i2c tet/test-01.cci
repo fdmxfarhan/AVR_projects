@@ -1,0 +1,8 @@
+VERSION:3 SOURCE_TIMESTAMP:495E870A
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega64.h"
+NODE:I LEVEL:0 LINE:32 "C:\cvavr\inc\i2c.h"
+NODE:I LEVEL:0 LINE:38 "C:\cvavr\inc\lcd.h"
+NODE:M LEVEL:0 LINE:39 "EEPROM_BUS_ADDRESS"
+NODE:V LEVEL:0 LINE:44 "cmp -> R4,R5"
+NODE:F LEVEL:0 LINE:46 "compass_read(unsigned char address)"
+NODE:F LEVEL:0 LINE:58 "main(void)"

@@ -1,0 +1,28 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_base_y                                                                           0x0160       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R5           1
+_lcd_x                                                                            R4           1
+_lcd_y                                                                            R7           1
+_lcd_maxx                                                                         R6           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00065     64
+_lcd_write_nibble_G100                                                            0x000A5     20
+_lcd_write_data                                                                   0x000B9     12
+lcd_gotoxy                                                                        0x000C5     13
+lcd_clear                                                                         0x000D2     12
+lcd_putchar                                                                       0x000DE     20
+lcd_init                                                                          0x000F2     46
+getchar                                                                           0x00120      4

@@ -1,0 +1,59 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+Accel_Raw_Val                                                                     0x0262      12
+AvrgAccel_Raw_Val                                                                 0x026E      12
+Accel_In_g                                                                        0x027A      12
+Accel_Offset_Val                                                                  0x0286      12
+Accel_Angle                                                                       0x0292      12
+Gyro_Raw_Val                                                                      0x029E      12
+AvrgGyro_Raw_Val                                                                  0x02AA      12
+Gyro_Offset_Val                                                                   0x02B6      12
+GyroRate_Val                                                                      0x02C2      12
+Temp_Val                                                                          0x02CE       4
+_seed                                                                             0x02D2       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+WaitInPrint                                                                       0x00171      3
+main                                                                              0x00174    350
+read_i2c                                                                          0x002D2     29
+write_i2c                                                                         0x002EF     16
+MPU6050_Test_I2C                                                                  0x002FF     15
+MPU6050_Init                                                                      0x0030E    138
+Get_Accel_Offset                                                                  0x00398    116
+Get_Accel_Val                                                                     0x0040C     70
+Get_AvrgAccel_Val                                                                 0x00452    146
+Get_Accel_Angles                                                                  0x004E4    102
+Get_Gyro_Offset                                                                   0x0054A    106
+Get_Gyro_Val                                                                      0x005B4     70
+Get_AvrgGyro_Val                                                                  0x005FA    144
+Get_Temp_Val                                                                      0x0068A     52
+getchar                                                                           0x006BE      4
+putchar                                                                           0x006C2      7
+puts                                                                              0x006C9     18
+put_usart_G100                                                                    0x006DB     13
+_ftoe_G100                                                                        0x006E8    206
+_print_G100                                                                       0x007B6    541
+printf                                                                            0x009D3     37
+ftoa                                                                              0x009F8    192
+ftrunc                                                                            0x00AB8     49
+floor                                                                             0x00AE9     16
+log                                                                               0x00AF9    130
+exp                                                                               0x00B7B    142
+pow                                                                               0x00C09     86
+xatan                                                                             0x00C5F     43
+yatan                                                                             0x00C8A     60
+atan                                                                              0x00CC6     20
+strcpyf                                                                           0x00CDA     13
+strlen                                                                            0x00CE7     12
+strlenf                                                                           0x00CF3     13

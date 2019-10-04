@@ -1,0 +1,5 @@
+VERSION:3 SOURCE_TIMESTAMP:4C2D62CD
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:32 "C:\cvavr\inc\twi.h"
+NODE:F LEVEL:0 LINE:37 "main(void)"

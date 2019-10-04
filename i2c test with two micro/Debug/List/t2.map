@@ -1,0 +1,48 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+twi_tx_index                                                                      0x0160       1
+twi_rx_index                                                                      0x0161       1
+twi_result                                                                        0x0162       1
+twi_rx_buffer                                                                     0x0163       8
+twi_tx_buffer                                                                     0x016B       8
+_base_y                                                                           0x0173       4
+slave_address                                                                     0x0177       1
+twi_tx_buffer                                                                     0x0178       2
+bytes_to_tx                                                                       0x017A       1
+twi_rx_buffer                                                                     0x017B       2
+bytes_to_rx                                                                       0x017D       1
+twi_rx_buffer_size                                                                0x017E       1
+twi_slave_rx_handler                                                              0x017F       2
+twi_slave_tx_handler                                                              0x0181       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R5           1
+_lcd_x                                                                            R4           1
+_lcd_y                                                                            R7           1
+_lcd_maxx                                                                         R6           1
+twi_flag                                                                          R2.0      1bit
+twi_ready                                                                         R2.1      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+twi_rx_handler                                                                    0x00064     18
+twi_tx_handler                                                                    0x00076     11
+main                                                                              0x00081    103
+_lcd_write_nibble_G100                                                            0x000E8     20
+_lcd_write_data                                                                   0x000FC     12
+lcd_gotoxy                                                                        0x00108     13
+lcd_clear                                                                         0x00115     12
+lcd_putchar                                                                       0x00121     20
+lcd_init                                                                          0x00135     46
+twi_master_init                                                                   0x00163     41
+twi_master_trans                                                                  0x0018C    111
+twi_slave_init                                                                    0x001FB     50
+twi_int_handler                                                                   0x0022D    357

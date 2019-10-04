@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:4C2D6262
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:32 "C:\cvavr\inc\twi.h"
+NODE:M LEVEL:0 LINE:35 "TWI_RX_BUFFER_SIZE"
+NODE:V LEVEL:0 LINE:36 "twi_rx_buffer -> RAM:????"
+NODE:M LEVEL:0 LINE:39 "TWI_TX_BUFFER_SIZE"
+NODE:V LEVEL:0 LINE:40 "twi_tx_buffer -> RAM:????"
+NODE:F LEVEL:0 LINE:46 "twi_rx_handler(_Bool rx_complete)"
+NODE:F LEVEL:0 LINE:83 "twi_tx_handler(_Bool tx_complete)"
+NODE:V LEVEL:0 LINE:104 "a -> R5"
+NODE:F LEVEL:0 LINE:106 "main(void)"

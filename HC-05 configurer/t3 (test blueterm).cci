@@ -1,0 +1,6 @@
+VERSION:3 SOURCE_TIMESTAMP:4B0FB217
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega8.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\glcd.h"
+NODE:I LEVEL:0 LINE:31 "C:\cvavr\inc\font5x7.h"
+NODE:I LEVEL:0 LINE:36 "C:\cvavr\inc\stdio.h"
+NODE:F LEVEL:0 LINE:38 "main(void)"

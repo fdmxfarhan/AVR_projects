@@ -1,0 +1,11 @@
+VERSION:3 SOURCE_TIMESTAMP:4C2FA58D
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\i2c.h"
+NODE:I LEVEL:0 LINE:33 "C:\cvavr\inc\lcd.h"
+NODE:I LEVEL:0 LINE:36 "C:\cvavr\inc\delay.h"
+NODE:M LEVEL:0 LINE:39 "I2C_7BIT_DEVICE_ADDRESS"
+NODE:M LEVEL:0 LINE:40 "EEPROM_BUS_ADDRESS"
+NODE:F LEVEL:0 LINE:44 "eeprom_read(unsigned int address)"
+NODE:F LEVEL:0 LINE:60 "eeprom_write(unsigned int address,unsigned char data)"
+NODE:V LEVEL:0 LINE:72 "a -> R4,R5"
+NODE:F LEVEL:0 LINE:75 "main(void)"

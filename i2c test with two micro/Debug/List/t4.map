@@ -1,0 +1,40 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+twi_tx_index                                                                      0x0160       1
+twi_rx_index                                                                      0x0161       1
+twi_result                                                                        0x0162       1
+_base_y                                                                           0x0163       4
+slave_address                                                                     0x0167       1
+twi_tx_buffer                                                                     0x0168       2
+bytes_to_tx                                                                       0x016A       1
+twi_rx_buffer                                                                     0x016B       2
+bytes_to_rx                                                                       0x016D       1
+twi_rx_buffer_size                                                                0x016E       1
+twi_slave_rx_handler                                                              0x016F       2
+twi_slave_tx_handler                                                              0x0171       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+_lcd_x                                                                            R5           1
+_lcd_y                                                                            R4           1
+_lcd_maxx                                                                         R7           1
+twi_flag                                                                          R2.0      1bit
+twi_ready                                                                         R2.1      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00064     60
+_lcd_write_nibble_G100                                                            0x000A0     20
+_lcd_write_data                                                                   0x000B4     12
+lcd_clear                                                                         0x000C0     12
+lcd_init                                                                          0x000CC     46
+twi_master_init                                                                   0x000FA     41
+twi_master_trans                                                                  0x00123    107
+twi_int_handler                                                                   0x0018E    357

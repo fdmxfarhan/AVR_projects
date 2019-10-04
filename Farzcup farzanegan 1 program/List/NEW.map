@@ -1,0 +1,71 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer1                                                                        0x0500       8
+s                                                                                 0x0508       2
+i                                                                                 0x050A       2
+SRFR                                                                              0x050C       2
+SRFB                                                                              0x050E       2
+SRFL                                                                              0x0510       2
+data_srf                                                                          0x0512       2
+data0_srf                                                                         0x0514       2
+data1_srf                                                                         0x0516       2
+data2_srf                                                                         0x0518       2
+RL                                                                                0x051A       2
+adc                                                                               0x051C      32
+min                                                                               0x053C       2
+kaf                                                                               0x053E      32
+mini                                                                              0x055E       2
+p                                                                                 0x0560       2
+h                                                                                 0x0562       2
+SL                                                                                0x0564       2
+SR                                                                                0x0566       2
+SB                                                                                0x0568       2
+sum                                                                               0x056A       2
+_base_y                                                                           0x056C       4
+_lcd_x                                                                            0x0570       1
+_lcd_y                                                                            0x0571       1
+_lcd_maxx                                                                         0x0572       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+c                                                                                 0x0000       2
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+cmp                                                                               R4,R5        2
+rx_wr_index1                                                                      R7           1
+rx_rd_index1                                                                      R6           1
+rx_counter1                                                                       R9           1
+rx_buffer_overflow1                                                               R2.0      1bit
+t                                                                                 R10,R11      2
+u                                                                                 R12,R13      2
+chr1                                                                              R8           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+compass_read                                                                      0x00089     23
+usart1_rx_isr                                                                     0x000A0     62
+timer3_ovf_isr                                                                    0x000DE    210
+read_adc                                                                          0x001B0     15
+motor                                                                             0x001BF    136
+sensor                                                                            0x00247    383
+read_sharp                                                                        0x003C6     78
+compass                                                                           0x00414    120
+catch                                                                             0x0048C    810
+main                                                                              0x007B6    137
+_lcd_delay_G100                                                                   0x0083F      4
+_lcd_ready                                                                        0x00843     17
+_lcd_write_nibble_G100                                                            0x00854     10
+_lcd_write_data                                                                   0x0085E     15
+_lcd_read_nibble_G100                                                             0x0086D      9
+lcd_read_byte0_G100                                                               0x00876      9
+lcd_gotoxy                                                                        0x0087F     20
+lcd_clear                                                                         0x00893     21
+lcd_putchar                                                                       0x008A8     39
+_long_delay_G100                                                                  0x008CF      5
+_lcd_init_write_G100                                                              0x008D4     12
+lcd_init                                                                          0x008E0     46

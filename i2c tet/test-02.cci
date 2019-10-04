@@ -1,0 +1,5 @@
+VERSION:3 SOURCE_TIMESTAMP:495E882C
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega64.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\i2c.h"
+NODE:I LEVEL:0 LINE:30 "C:\cvavr\inc\alcd.h"
+NODE:F LEVEL:0 LINE:34 "main(void)"

@@ -1,0 +1,52 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+Accel_Raw_Val                                                                     0x0160      12
+AvrgAccel_Raw_Val                                                                 0x016C      12
+Accel_In_g                                                                        0x0178      12
+Accel_Offset_Val                                                                  0x0184      12
+Accel_Angle                                                                       0x0190      12
+Gyro_Raw_Val                                                                      0x019C      12
+AvrgGyro_Raw_Val                                                                  0x01A8      12
+Gyro_Offset_Val                                                                   0x01B4      12
+GyroRate_Val                                                                      0x01C0      12
+Temp_Val                                                                          0x01CC       4
+_base_y                                                                           0x01D0       4
+_seed                                                                             0x01D4       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+cmp                                                                               R4,R5        2
+g_z                                                                               R6,R7        2
+_lcd_x                                                                            R9           1
+_lcd_y                                                                            R8           1
+_lcd_maxx                                                                         R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_i2c                                                                          0x0006C     29
+write_i2c                                                                         0x00089     16
+MPU6050_Init                                                                      0x00099    138
+Get_Accel_Offset                                                                  0x00123    151
+Get_Gyro_Offset                                                                   0x001BA    127
+Get_Gyro_Val                                                                      0x00239    148
+main                                                                              0x002CD    139
+_lcd_delay_G100                                                                   0x00358      4
+_lcd_ready                                                                        0x0035C     17
+_lcd_write_nibble_G100                                                            0x0036D     10
+_lcd_write_data                                                                   0x00377     15
+_lcd_read_nibble_G100                                                             0x00386      9
+lcd_read_byte0_G100                                                               0x0038F      9
+lcd_gotoxy                                                                        0x00398     16
+lcd_clear                                                                         0x003A8     19
+lcd_putchar                                                                       0x003BB     26
+lcd_putsf                                                                         0x003D5     19
+_long_delay_G100                                                                  0x003E8      5
+_lcd_init_write_G100                                                              0x003ED     12
+lcd_init                                                                          0x003F9     51

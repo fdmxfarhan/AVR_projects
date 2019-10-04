@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:4B2F8334
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16a.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:30 "C:\cvavr\inc\stdio.h"
+NODE:V LEVEL:0 LINE:31 "i -> R4,R5"
+NODE:F LEVEL:0 LINE:33 "servo(int degree)"
+NODE:F LEVEL:0 LINE:39 "main(void)"

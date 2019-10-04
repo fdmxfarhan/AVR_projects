@@ -1,0 +1,57 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+Accel_Raw_Val                                                                     0x0160      12
+AvrgAccel_Raw_Val                                                                 0x016C      12
+Accel_In_g                                                                        0x0178      12
+Accel_Offset_Val                                                                  0x0184      12
+Accel_Angle                                                                       0x0190      12
+Gyro_Raw_Val                                                                      0x019C      12
+AvrgGyro_Raw_Val                                                                  0x01A8      12
+Gyro_Offset_Val                                                                   0x01B4      12
+GyroRate_Val                                                                      0x01C0      12
+Temp_Val                                                                          0x01CC       4
+_base_y                                                                           0x01D0       4
+_lcd_x                                                                            0x01D4       1
+_lcd_y                                                                            0x01D5       1
+_lcd_maxx                                                                         0x01D6       1
+_seed                                                                             0x01D7       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+cnt1                                                                              R4,R5        2
+a1                                                                                R6,R7        2
+a2                                                                                R8,R9        2
+a3                                                                                R10,R11      2
+a4                                                                                R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_i2c                                                                          0x0006E     29
+write_i2c                                                                         0x0008B     16
+MPU6050_Init                                                                      0x0009B    138
+Get_Accel_Offset                                                                  0x00125    110
+Get_AvrgAccel_Val                                                                 0x00193    182
+Get_Accel_Angles                                                                  0x00249    102
+Get_Gyro_Offset                                                                   0x002AF    144
+main                                                                              0x0033F    140
+_lcd_write_nibble_G100                                                            0x003CB     20
+_lcd_write_data                                                                   0x003DF     12
+lcd_gotoxy                                                                        0x003EB     17
+lcd_clear                                                                         0x003FC     14
+lcd_putchar                                                                       0x0040A     31
+lcd_init                                                                          0x00429     47
+ftrunc                                                                            0x00458     49
+floor                                                                             0x00489     16
+log                                                                               0x00499    130
+exp                                                                               0x0051B    154
+pow                                                                               0x005B5     82
+xatan                                                                             0x00607     43
+yatan                                                                             0x00632     60
+atan                                                                              0x0066E     20

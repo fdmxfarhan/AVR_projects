@@ -1,0 +1,39 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ct1                                                                               0x0160       2
+ct2                                                                               0x0162       2
+damagetime                                                                        0x0164       2
+e1                                                                                0x0166       2
+e2                                                                                0x0168       2
+e3                                                                                0x016A       2
+e4                                                                                0x016C       2
+e5                                                                                0x016E       2
+_base_y                                                                           0x0170       4
+_lcd_x                                                                            0x0174       1
+_lcd_y                                                                            0x0175       1
+_lcd_maxx                                                                         0x0176       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+timer1                                                                            R4,R5        2
+timer2                                                                            R6,R7        2
+timer3                                                                            R8,R9        2
+timer4                                                                            R10,R11      2
+timer5                                                                            R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0006D    297
+_lcd_write_nibble_G100                                                            0x00196     20
+_lcd_write_data                                                                   0x001AA     12
+lcd_gotoxy                                                                        0x001B6     17
+lcd_clear                                                                         0x001C7     14
+lcd_putchar                                                                       0x001D5     31
+lcd_init                                                                          0x001F4     47

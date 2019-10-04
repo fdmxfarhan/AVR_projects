@@ -1,0 +1,44 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x017F       8
+Accel_Raw_Val                                                                     0x0187      12
+AvrgAccel_Raw_Val                                                                 0x0193      12
+Accel_In_g                                                                        0x019F      12
+Accel_Offset_Val                                                                  0x01AB      12
+Accel_Angle                                                                       0x01B7      12
+Gyro_Raw_Val                                                                      0x01C3      12
+AvrgGyro_Raw_Val                                                                  0x01CF      12
+Gyro_Offset_Val                                                                   0x01DB      12
+GyroRate_Val                                                                      0x01E7      12
+Temp_Val                                                                          0x01F3       4
+action                                                                            0x01F7       2
+_seed                                                                             0x01F9       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+rx_wr_index                                                                       R5           1
+rx_rd_index                                                                       R4           1
+rx_counter                                                                        R7           1
+rx_buffer_overflow                                                                R2.0      1bit
+cnt1                                                                              R8,R9        2
+x                                                                                 R10,R11      2
+y                                                                                 R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x00074     39
+read_i2c                                                                          0x0009B     20
+write_i2c                                                                         0x000AF     11
+MPU6050_Init                                                                      0x000BA     95
+Get_Accel_Offset                                                                  0x00119     94
+Get_Accel_Val                                                                     0x00177    112
+Get_Gyro_Offset                                                                   0x001E7    103
+main                                                                              0x0024E    154
+putchar                                                                           0x002E8      7

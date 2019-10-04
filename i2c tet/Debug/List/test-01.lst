@@ -1,0 +1,11 @@
+
+AVRASM ver. 2.1.30  C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm Sun Oct 30 16:56:19 2016
+
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1089): warning: Register r4 already defined by the .DEF directive
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1090): warning: Register r5 already defined by the .DEF directive
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1091): warning: Register r7 already defined by the .DEF directive
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1092): warning: Register r6 already defined by the .DEF directive
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1093): warning: Register r9 already defined by the .DEF directive
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1901): error: Invalid redefinition of '__sda_bit'
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1902): error: Invalid redefinition of '__scl_bit'
+C:\Users\fdmx\Desktop\i2c tet\Debug\List\test-01.asm(1903): error: Invalid redefinition of '__i2c_port'

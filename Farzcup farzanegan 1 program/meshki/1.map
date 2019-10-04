@@ -1,0 +1,40 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer1                                                        0500h        8
+SR                                                                0508h        2
+SB                                                                050Ah        2
+RL                                                                050Ch        2
+sum                                                               050Eh        2
+adc                                                               0510h       32
+min                                                               0530h        2
+i                                                                 0532h        2
+kaf                                                               0534h       32
+mini                                                              0554h        2
+r                                                                 0556h        2
+l                                                                 0558h        2
+f                                                                 055Ah        2
+b                                                                 055Ch        2
+h                                                                 055Eh        2
+m                                                                 0560h        2
+_base_y                                                           0562h        4
+_lcd_y                                                            0566h        1
+_lcd_maxx                                                         0567h        1
+p                                                                 0568h        2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+c                                                                 0000h        2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+cmp                                                               R4,R5        2
+rx_wr_index1                                                      R7           1
+rx_rd_index1                                                      R6           1
+rx_counter1                                                       R9           1
+rx_buffer_overflow1                                               R2.0      1bit
+t                                                                 R10,R11      2
+SL                                                                R12,R13      2
+_lcd_x                                                            R8           1

@@ -1,0 +1,45 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer1                                                        0500h        8
+s                                                                 0508h        2
+i                                                                 050Ah        2
+SRFR                                                              050Ch        2
+SRFB                                                              050Eh        2
+SRFL                                                              0510h        2
+data_srf                                                          0512h        2
+data0_srf                                                         0514h        2
+data1_srf                                                         0516h        2
+data2_srf                                                         0518h        2
+RL                                                                051Ah        2
+adc                                                               051Ch       32
+min                                                               053Ch        2
+kaf                                                               053Eh       32
+mini                                                              055Eh        2
+p                                                                 0560h        2
+h                                                                 0562h        2
+SL                                                                0564h        2
+SR                                                                0566h        2
+SB                                                                0568h        2
+sum                                                               056Ah        2
+_base_y                                                           056Ch        4
+_lcd_x                                                            0570h        1
+_lcd_y                                                            0571h        1
+_lcd_maxx                                                         0572h        1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+c                                                                 0000h        2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+cmp                                                               R4,R5        2
+rx_wr_index1                                                      R7           1
+rx_rd_index1                                                      R6           1
+rx_counter1                                                       R9           1
+rx_buffer_overflow1                                               R2.0      1bit
+t                                                                 R10,R11      2
+u                                                                 R12,R13      2
+chr1                                                              R8           1

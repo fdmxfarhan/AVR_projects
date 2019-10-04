@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:44339F76
+NODE:I LEVEL:0 LINE:14 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:15 "C:\cvavr\inc\i2c.h"
+NODE:I LEVEL:0 LINE:16 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:17 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:18 "C:\cvavr\inc\stdlib.h"
+NODE:I LEVEL:0 LINE:19 "C:\Users\FDMX\Desktop\TF_4MPU_WUs\LIB\MPU6050 LIB\MPU6050.h"
+NODE:F LEVEL:0 LINE:21 "WaitInPrint(void)"
+NODE:F LEVEL:0 LINE:26 "main(void)"
